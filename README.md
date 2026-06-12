@@ -40,19 +40,28 @@ nodeapp/
 
 ##  How to Run This Project
 
+## Prerequisites
+
+- Docker
+- Docker Compose
+- Git
+
 ### 1 Clone repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/node-docker-mongo-app.git
+git clone https://github.com/Ksingh-pranjal/node-docker-mongo-app.git
 cd node-docker-mongo-app
+```
 
 ### 2 Start with Docker
 ```bash
 docker-compose up --build
+```
 
 ### 3 Open in browser
 http://localhost:3030
 
 ---
+
 ## API Routes
 
 | Method | Route     | Description   |
